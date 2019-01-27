@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Socket客户端测试版</string>
+    <!-- 主页 !-->
+    <string name="unconnected">服务器未连接</string>
+    <string name="connected">服务器已连接</string>
+    <string name="successed">服务器连接成功！</string>
+    <string name="unsuccessed">服务器连接失败！</string>
+    <string name="connecting">正在连接中...</string>
+
+    <string name="interrupt">服务器已断开！</string>
+    <string name="ip_error">输入的IP格式有误！</string>
+
+    <string name="error">无效IP地址或端口号！</string>
+    <string name="title">Socket Test</string>
+    <string name="text1">IP地址：</string>
+    <string name="text2">端口号：</string>
+    <string name="text3">发送</string>
+    <string name="text4">接收</string>
+    <string name="text1_hint">请输入IP地址</string>
+    <string name="text2_hint">请输入端口号</string>
+    <string name="text3_hint">请输入发送内容</string>
+
+    <string name="connect">连接</string>
+    <string name="break_connect">断开</string>
+
+    <!-- 标题栏 !-->
+    <string name="title2">标题栏</string>
+    <string name="text_back">返回</string>
+    <string name="text_forward">提交</string>
+    <string name="state">已连接</string>
+    <string name="upload_title">文件上传</string>
+
+    <!-- 菜单栏 !-->
+    <string name="chat">命令交互</string>
+    <string name="upload">文件上传</string>
+    <string name="help">帮助</string>
+
+    <!-- 上传文件界面 !-->
+    <string name="select_file">选择文件</string>
+    <string name="start_upload">开始上传</string>
+    <string name="stop">停止</string>
+
+    <string name="app_name1">大视频文件断点上传</string>
+    <string name="filename">文件名称</string>
+    <string name="sdcarderror">SDCard不存在或者写保护</string>
+    <string name="upload_success">上传完成</string>
+    <string name="error_upload">上传失败</string>
+    <string name="upload_exception">上传异常</string>
+    <string name="file_no_texsit">文件不存在！</string>
+    <string name="uploaded">文件已存在服务器中！</string>
+
+    <string name="alert">警告</string>
+    <string name="no_socket">您当前未连接服务器！</string>
+    <string name="go_to_connect">去连接</string>
+    <string name="cancel">取消</string>
+
+</resources>

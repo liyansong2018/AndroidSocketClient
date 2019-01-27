@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 首先定义标题栏 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#adadad">
+
+        <TextView
+            android:text="@string/app_name"
+            android:id="@+id/bar_title"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:ellipsize="marquee"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/button_backward"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/back_arrow"
+            android:background="#adadad"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            android:padding="15dp"/>
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/menu"
+            android:background="#adadad"
+            android:scaleType="centerInside"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:id="@+id/connect_state"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/unconnected"
+            android:layout_marginLeft="300dp"
+            android:background="#adadad"
+            android:scaleType="centerInside"
+            android:padding="12dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

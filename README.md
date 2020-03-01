@@ -1,0 +1,3 @@
+# AndroidSocketClient
+这是一个使用socket进行通信的客户端，能够实现日常命令传输和大文件的断点续传。与一般socket不同的是，这里使用android作为客户端，python作为服务端，python源程序请参照本人github上的另外一个项目。
+服务端程序请参考另外一个项目：https://github.com/liyansong2018/SocketServer/ 这是配套的服务端程序
